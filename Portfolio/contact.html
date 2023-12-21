@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Janna Coles - Contact</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Images/janna2.jpg" alt="Your Name" class="profile-image">
+            <h1>Janna Coles</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out if you have any questions or collaboration opportunities. Use the form below or connect with me on social media.</p>
+
+            <form action="#" method="post" id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject">
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div id="submitMessage"></div>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jannacoles" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact me at: <a href="mailto:your.janna.coles@keyin.com">janna.coles@keyin.com</a></p>
+    </footer>
+    <script defer src="script.js"></script>
+</body>
+</html>
